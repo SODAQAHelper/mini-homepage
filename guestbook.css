@@ -1,0 +1,93 @@
+.guestbookContainer {
+    display: flex;
+    flex: 3;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 3px;
+    margin-right: 10px;
+
+    position: absolute;
+    top: 50px;
+    bottom: 60px;
+    left: 250px;
+    right: 100px;
+
+    overflow: auto;
+}
+
+.guestbookRow {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.guestbookTitle {
+    display: flex;
+    background-color: rgb(197, 195, 195);
+    justify-content: space-between;
+    line-height: 40px;
+
+    margin-right: 8px;
+}
+
+.guestbookDate {
+    font-size: small;
+    margin-right: 8px;
+}
+
+.guestbookContent {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-right: 5px;
+}
+
+.guestbookProfile {
+    flex: 0 0 10rem;
+    height: 10rem;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 10px;
+}
+
+.background1 {
+    background-image: url("./images/bgimg1.jpeg");
+}
+
+.background2 {
+    background-image: url("./images/bgimg2.jpeg");
+}
+
+.background3 {
+    background-image: url("./images/bgimg3.jpeg");
+}
+
+.guestbookProfileImg > img {
+    width: 80%;
+}
+
+.guestbookText {
+    flex: 1 0 10rem;
+    height: 10rem;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 30px;
+}
+
+.guestbookUser {
+    color: cadetblue;
+}

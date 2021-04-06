@@ -1,0 +1,114 @@
+.diaryContainer {
+    display: flex;
+    flex: 3;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 3px;
+    margin-right: 10px;
+
+    position: absolute;
+    top: 50px;
+    bottom: 60px;
+    left: 250px;
+    right: 100px;
+
+    /* overflow: scroll; */
+}
+
+.dateBox {
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    right: 15px;
+    height: 3rem;
+
+    border: 1px solid rgb(173, 170, 170);
+
+    display: flex;
+    align-items: center;
+}
+
+.today {
+    flex: 0 0 2rem;
+    margin: 0 1rem;
+    text-align: center;
+}
+
+.dateList {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.date {
+    flex: 0 0 1.5rem;
+    margin: 1 1rem;
+    text-align: center;
+}
+
+.diaryRow {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 10px;
+
+    top: 50px;
+    bottom: 1px;
+    left: 5px;
+    right: 15px;
+
+    overflow: scroll;
+}
+
+.diaryContentBox {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 1px;
+    border: 1px solid rgb(173, 170, 170);
+}
+
+.diaryDate {
+    flex: 0 0 2rem;
+    margin: 0 1rem;
+    margin-top: 5px;
+    text-align: left;
+}
+
+.diaryContent {
+    flex: 0 0 2rem;
+    margin: 0 1rem;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.secretDiaryBtn {
+    flex: 1;
+    justify-content: center;
+    background-color: whitesmoke;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border: solid whitesmoke;
+    outline: whitesmoke;
+}
+
+.secretDiaryBtn:hover {
+    background-color: rgb(20, 132, 184);
+}
+
+#secretBox {
+    display: none;
+}
