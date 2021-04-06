@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Nanum+Gothic+Coding&family=Nanum+Pen+Script&display=swap');
+
+h1 {
+    font-family: 'HSBombaram3_Regular';
+    color: rgb(7, 245, 205);
+    font-weight: 3000;
+}
+
+h3 {
+    font-family: 'HSBombaram3_Regular';
+    color: rgb(7, 245, 205);
+    font-weight: 3000;
+}
+
+.Nanum-Gothic-Coding {
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-weight: 5000;
+}
+
+.Black-Han-Sans {
+    font-family: 'Black Han Sans', sans-serif;
+    font-weight: 500;
+}
+
+.brown {
+    font-size: 10;
+    color: brown;
+}
+#edit {
+    font-family: 'LAB디지털';
+    background-color: burlywood;
+    color: blueviolet;
+    font-size: 5;
+}
+
+@font-face {
+    font-family: 'HSBombaram3_Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.1/HSBombaram3_Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LAB디지털';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/LAB디지털.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

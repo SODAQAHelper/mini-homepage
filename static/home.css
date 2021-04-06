@@ -1,0 +1,66 @@
+.feedContainer {
+    display: flex;
+    flex: 2;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+.feedRow {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.categoryContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.categoryRow {
+    display: flex;
+    margin: 5px;
+    border-bottom: 1px dashed gray;
+    flex-direction: row;
+    padding: 3px;
+    justify-content: space-around;
+}
+
+.miniRoomContainer {
+    display: flex;
+    flex: 0.5;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+.miniRoom {
+    display: flex;
+    flex: 0.5;
+}
+
+.photoBg {
+    color: whitesmoke;
+    background-color: rgb(245, 72, 72);
+    border-radius: 3px;
+    font-size: x-small;
+    padding: 1px;
+}
+
+.boardBg {
+    color: whitesmoke;
+    background-color: rgb(25, 157, 233);
+    border-radius: 3px;
+    font-size: x-small;
+    padding: 1px;
+}
+
+.countColor {
+    color: rgb(48, 48, 189);
+}
